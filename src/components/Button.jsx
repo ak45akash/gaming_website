@@ -10,10 +10,12 @@ const Button = ({ title, id, rightIcon, leftIcon, containerClass }) => {
             {leftIcon}
 
             <span className="relative inline-flex overflow-hidden font-general text-xs uppercase">
-                <div className="">
+                <div>
                     {title}
                 </div>
             </span>
+
+            {rightIcon}
         </button>
     );
 };
