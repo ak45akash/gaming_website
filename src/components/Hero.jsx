@@ -6,6 +6,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger)
+
+// TODO:: For the last video, there's a blank screen. Need to fix it.
 const Hero = () => {
     const [currentIndex, setCurrentIndex] = useState(1);
     const [hasClicked, setHasClicked] = useState(false);
@@ -13,7 +15,7 @@ const Hero = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [loadedVideos, setLoadedVideos] = useState(0);
 
-    const totalVideos = 3;
+    const totalVideos = 4;
     const nextVideoRef = useRef(null);
     
     const handleVideoLoad = () => {
@@ -34,6 +36,7 @@ const Hero = () => {
         }
     }, [loadedVideos]);
 
+    // Mini Video Animation
     useGSAP(() => {
         if(hasClicked) {
             gsap.set("#next-video", {visibility: 'visible'});
