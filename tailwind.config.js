@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        zentry: ['zentery', 'sans-serif'],
+        zentry: ['zentry', 'sans-serif'],
         general: ['general', 'sans-serif'],
         'circular-web': ['circular-web', 'sans-serif'],
         'robert-medium': ['robert-medium', 'sans-serif'],
