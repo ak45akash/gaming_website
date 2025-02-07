@@ -46,7 +46,7 @@ const Preloader = ({ onComplete }) => {
 
     return (
         <div ref={preloaderRef} className="fixed inset-0 flex items-center justify-center bg-black text-white z-50">
-            <h1 ref={textRef} className="text-4xl font-bold tracking-widset text-blue-50 uppercase font-general">
+            <h1 ref={textRef} className="special-font hero-heading tracking-widset text-blue-50 uppercase font-circular-web">
                 Kreeda Studios
             </h1>
         </div>

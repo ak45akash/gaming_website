@@ -8,9 +8,9 @@ import Preloader from './components/Preloader.jsx'
 const Main = () => {
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 3000);  // Preloader duration
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => setLoading(false), 3000);  // Preloader duration
+  // }, []);
 
   return (
     <>
