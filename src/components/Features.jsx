@@ -102,7 +102,7 @@ const Features = () => {
 
                     <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
                         <BentoCard
-                            id="neXus"
+                            id="#neXus"
                             src="/videos/feature-3.mp4"
                             title={<>
                                 n<b>e</b>xus
