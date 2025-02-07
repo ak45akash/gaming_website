@@ -10,11 +10,17 @@ const Main = () => {
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 3000);  // Preloader duration
-  })
+  }, []);
+
+  return (
+    <>
+      {loading ? <Preloader onComplete={() => setLoading(false)} /> : <App />}
+    </>
+  );
 }
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Main />
   </StrictMode>,
 )
