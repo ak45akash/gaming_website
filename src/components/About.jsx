@@ -31,7 +31,7 @@ const About = () => {
         <div id="about" className="min-h-screen w-screen">
             <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
                 <h2 className="font-general text-sm uppercase md:text-[10px]">
-                    Welcome to Zentry
+                    Welcome to Kreeda
                 </h2>
 
                 <AnimatedTitle 
@@ -45,7 +45,7 @@ const About = () => {
                     </p>
 
                     <p>
-                        Zentry unites every player from countless games and platforms
+                        Kreeda unites every player from countless games and platforms
                     </p>
                 </div>
             </div>

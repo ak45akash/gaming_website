@@ -40,7 +40,7 @@ const Contact = () => {
 
                 <div className="flex flex-col items-center text-center">
                     <p className="font-general text-[10px] uppercase">
-                        Join Zentry
+                        Join Kreeda
                     </p>
 
                     {/* TODO:: Position the text properly for large screen sizes */}
